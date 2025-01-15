@@ -1,8 +1,38 @@
-# React + Vite
+# Gerador de Cores HEX
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Um projeto simples em React que gera uma cor aleatória no formato hexadecimal e aplica como fundo da página ao clicar em um botão.
 
-Currently, two official plugins are available:
+## Funcionalidades
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- Geração de cores aleatórias no formato HEX.
+- Aplicação automática da cor gerada como fundo da página.
+- Exibição do código HEX gerado na interface.
+
+## Tecnologias Utilizadas
+
+- [React](https://react.dev/)
+- CSS Modules para estilização
+
+## Como Executar o Projeto
+
+Siga os passos abaixo para executar o projeto localmente:
+
+1. **Clone o repositório**:
+    ```bash
+    git clone https://github.com/seu-usuario/gerador-hex.git
+    ```
+
+2. **Acesse o diretório do projeto**:
+    ```bash
+    cd gerador-hex
+    ```
+
+3. **Instale as dependências**:
+    ```bash
+    npm install
+    ```
+
+4. **Execute o projeto**:
+    ```bash
+    npm start
+    ```
