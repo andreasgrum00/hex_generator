@@ -34,5 +34,5 @@ Siga os passos abaixo para executar o projeto localmente:
 
 4. **Execute o projeto**:
     ```bash
-    npm start
+    npm run dev
     ```
